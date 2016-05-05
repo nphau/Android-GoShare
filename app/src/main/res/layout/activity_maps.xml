@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@color/White"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context="com.yosta.goshare.activites.MapsActivity">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" >
+
+        <com.yosta.goshare.utils.MapWrapperLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.yosta.goshare.activites.MapsActivity" >
+            <fragment
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.yosta.goshare.utils.MapWrapperLayout>
+
+        <!--<com.github.clans.fab.FloatingActionMenu-->
+            <!--android:id="@+id/fab"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom|end"-->
+            <!--android:layout_margin="@dimen/activity_margin"-->
+            <!--fab:menu_animationDelayPerItem="0"-->
+            <!--fab:menu_colorNormal="@color/colorPrimary"-->
+            <!--fab:menu_colorPressed="@color/colorPrimaryDark"-->
+            <!--fab:menu_colorRipple="@color/colorPrimaryLight"-->
+            <!--fab:menu_labels_hideAnimation="@anim/jump_to_down"-->
+            <!--fab:menu_labels_showAnimation="@anim/jump_from_down"-->
+            <!--fab:menu_shadowColor="#444">-->
+
+            <!--<com.github.clans.fab.FloatingActionButton-->
+                <!--android:id="@+id/fabSearch"-->
+                <!--style="@style/MenuButtonsStyle"-->
+                <!--android:layout_width="@dimen/icon_size"-->
+                <!--android:layout_height="@dimen/icon_size"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/ic_action_search"/>-->
+
+            <!--<com.github.clans.fab.FloatingActionButton-->
+                <!--android:id="@+id/fabPeople"-->
+                <!--style="@style/MenuButtonsStyle"-->
+                <!--android:layout_width="@dimen/icon_size"-->
+                <!--android:layout_height="@dimen/icon_size"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/ic_people_white"/>-->
+
+            <!--<com.github.clans.fab.FloatingActionButton-->
+                <!--android:id="@+id/fabSearchBuilding"-->
+                <!--style="@style/MenuButtonsStyle"-->
+                <!--android:layout_width="@dimen/icon_size"-->
+                <!--android:layout_height="@dimen/icon_size"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/ic_location_city_white"/>-->
+
+            <!--<com.github.clans.fab.FloatingActionButton-->
+                <!--android:id="@+id/nearbyme"-->
+                <!--style="@style/MenuButtonsStyle"-->
+                <!--android:layout_width="@dimen/icon_size"-->
+                <!--android:layout_height="@dimen/icon_size"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/ic_place"/>-->
+
+            <!--<com.github.clans.fab.FloatingActionButton-->
+                <!--android:id="@+id/fabMyLocation"-->
+                <!--style="@style/MenuButtonsStyle"-->
+                <!--android:layout_width="@dimen/icon_size"-->
+                <!--android:layout_height="@dimen/icon_size"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:src="@drawable/ic_action_location_2"/>-->
+
+<!--\       </com.github.clans.fab.FloatingActionMenu>-->
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/laySearch"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/leftroundborder"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/rightroundborder"
+                    android:hint="Search"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:id="@+id/txtSearch"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="-1dp"
+                    android:id="@+id/btnSearch"
+                    android:src="@android:drawable/ic_menu_search" />
+            </LinearLayout>
+
+            <ListView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ltwResult"
+
+                android:background="@drawable/leftroundborder">
+            </ListView>
+
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

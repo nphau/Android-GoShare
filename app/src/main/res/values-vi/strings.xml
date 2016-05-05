@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">GoShare</string>
+
+    <string name="str_cancel"> Huỷ </string>
+    <string name="str_exit"> Thoát </string>
+    <string name="str_no"> Không </string>
+    <string name="str_to"> Đến:  </string>
+    <string name="str_yes"> Đồng ý </string>
+    <string name="str_dev"> Developer: </string>
+    <string name="str_other"> Help &amp; Settings </string>
+    <string name="str_phone"> Phone </string>
+    <string name="str_level"> Level </string>
+    <string name="str_place"> Places </string>
+    <string name="str_upload"> Tải lên </string>
+    <string name="str_review"> Nhật xét </string>
+    <string name="str_follow"> Theo dõi </string>
+    <string name="str_online"> Online Support </string>
+    <string name="str_password"> Password </string>
+    <string name="str_favorite"> Favorites </string>
+    <string name="str_full_name"> Full name </string>
+
+
+    <string name="str_day"> Ngày </string>
+    <string name="str_week"> Tuần </string>
+    <string name="str_month"> Tháng </string>
+    <string name="str_expired"> Hết hạn: </string>
+
+
+    <string name="str_map_normal"> Bình Thường </string>
+    <string name="str_map_satellite"> Satellite </string>
+    <string name="str_map_hybrid"> Hybrid </string>
+    <string name="str_map_terrain"> Terrain </string>
+    <string name="str_say"> Hãy chia sẻ cảm xúc của bạn </string>
+
+    <string name="str_todo"> To do </string>
+    <string name="str_vi"> Tiếng Việt </string>
+    <string name="str_en"> Tiếng Anh </string>
+    <string name="str_save"> Lưu </string>
+    <string name="str_saved"> Đã lưu </string>
+    <string name="str_acc"> Tài khoản </string>
+    <string name="str_help"> Trợ giúp </string>
+    <string name="str_about"> Thông tin ứng dụng </string>
+    <string name="str_result"> Kết quả </string>
+    <string name="str_event"> Sự kiện </string>
+    <string name="str_market"> Chợ, siêu thị </string>
+    <string name="str_terms"> Điều khoản sử dụng </string>
+    <string name="str_detail"> Chi tiết </string>
+    <string name="str_update"> Cập nhật </string>
+    <string name="str_weather"> Thời tiết </string>
+    <string name="str_near_me"> Xung quanh tôi </string>
+    <string name="str_version"> Phiên bản </string>
+    <string name="str_report"> Phản hồi vấn đề </string>
+    <string name="str_language"> Ngôn ngữ </string>
+    <string name="str_location"> Vị trí </string>
+    <string name="str_hospital"> Bệnh viện </string>
+    <string name="str_download"> Download </string>
+    <string name="str_gas_station"> Trạm xăng </string>
+    <string name="str_top_travel"> Top Travel </string>
+    <string name="str_university"> Trường đại học </string>
+
+    <string name="str_notify_saved"> Đã lưu thành công </string>
+    <string name="str_notify_deleted"> Đã xoá thành công </string>
+    <string name="str_notify_err_no_gps"> Chưa kết nối GPS </string>
+    <string name="str_notify_err_no_net"> Chưa kết nối internet </string>
+    <string name="str_notify_your_location"> Bạn đang ở đây </string>
+    <string name="str_notify_email_existed"> Email đã tồn tại </string>
+    <string name="str_notify_err_no_event"> Không có sự kiện nào</string>
+    <string name="str_notify_err_no_saves"> Dữ liệu rỗng </string>
+    <string name="str_notify_err_pass_not_match"> Mật khẩu chưa khớp </string>
+    <string name="str_notify_err_pass_not_valid"> Mật khẩu phải ít nhất 5 kí tự </string>
+    <string name="str_notify_err_wrong_user_pass"> Email hoặc password không đúng </string>
+    <string name="str_action_confirm_change_language"> Thoát ứng dụng để thay đổi ngôn ngữ? </string>
+    <!--Begin action-->
+    <string name="str_action_map"> View map </string>
+    <string name="str_action_login"> Đăng nhập </string>
+    <string name="str_action_sign_up">Đăng kí</string>
+    <string name="str_action_logout"> Đăng xuất </string>
+    <string name="str_action_search"> Tìm kiếm </string>
+    <string name="str_action_settings"> Cài đặt </string>
+    <string name="str_action_mapStyle"> Kiểu bản đồ </string>
+    <string name="str_action_findPath"> Find path </string>
+    <string name="str_action_show_place"> Xem bản đồ </string>
+    <string name="str_action_confirm_password"> Confirm password </string>
+    <string name="str_action_confirm_log_out"> Bạn chắc chắn muốn đăng xuất? </string>
+    <!--End action-->
+
+    <string name="str_check_network_state">
+        Turn on Wi-Fi or cell networks and GPS to have the best map. Do you want to turn on?
+    </string>
+
+    <string name="str_confirm_change_language">
+        Bạn có muốn thoát ứng dụng để thấy sự thay đổi ngay bây giờ không?
+    </string>
+</resources>

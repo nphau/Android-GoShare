@@ -1,0 +1,84 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_margin_min"
+        android:background="@android:color/transparent"
+        android:choiceMode="singleChoice"
+        android:clipToPadding="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="4dp" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/activity_margin"
+        android:visibility="gone"
+        fab:menu_animationDelayPerItem="0"
+        fab:menu_colorNormal="@color/colorPrimary"
+        fab:menu_colorPressed="@color/colorPrimaryDark"
+        fab:menu_colorRipple="@color/colorPrimaryLight"
+        fab:menu_labels_hideAnimation="@anim/jump_to_down"
+        fab:menu_labels_showAnimation="@anim/jump_from_down"
+        fab:menu_shadowColor="#444">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabFilter"
+            style="@style/MenuButtonsStyle"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:scaleType="centerInside"
+            android:src="@android:drawable/ic_menu_day"
+            fab:fab_label="Day" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabStatus"
+            style="@style/MenuButtonsStyle"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_edit"
+            fab:fab_label="Status" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab12"
+            style="@style/MenuButtonsStyle"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_music"
+            fab:fab_label="Audio" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab22"
+            style="@style/MenuButtonsStyle"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_video"
+            fab:fab_label="Video" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab32"
+            style="@style/MenuButtonsStyle"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_image"
+            fab:fab_label="Image" />
+
+
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.design.widget.CoordinatorLayout>

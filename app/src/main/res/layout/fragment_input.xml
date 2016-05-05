@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_paddingTop"
+        android:textColorHint="@color/colorPrimaryLight"
+        app:errorTextAppearance="?textColorError"
+        app:errorEnabled="true"
+        app:hintAnimationEnabled="true">
+
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/activity_paddingLeft"
+            android:layout_marginTop="@dimen/activity_paddingTop"
+            android:background="@android:color/transparent"
+            android:hint="@string/str_email"
+            android:inputType="textEmailAddress|textNoSuggestions"
+            android:shadowColor="@color/colorPrimaryLight"
+            android:textColor="@color/colorPrimaryLight"
+            android:textStyle="italic" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorTextAppearance="?textColorError"
+        android:layout_marginTop="@dimen/activity_paddingTop"
+        android:textColorHint="@color/colorPrimaryLight"
+        app:errorEnabled="true"
+        app:hintAnimationEnabled="true">
+
+        <EditText
+            android:id="@+id/txt_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/activity_paddingLeft"
+            android:layout_marginTop="@dimen/activity_paddingTop"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="@string/str_password"
+            android:inputType="textPassword|textNoSuggestions"
+            android:textColor="@color/colorPrimaryLight"
+            android:textStyle="italic" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+

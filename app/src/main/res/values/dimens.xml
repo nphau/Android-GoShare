@@ -1,0 +1,69 @@
+<resources>
+
+    <dimen name="app_bar_height">256dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="activity_padding_min">8dp</dimen>
+    <dimen name="activity_padding_min_Top">8dp</dimen>
+    <dimen name="activity_padding_min_Right">8dp</dimen>
+    <dimen name="activity_padding_min_Bottom">8dp</dimen>
+    <dimen name="activity_padding_min_Left">8dp</dimen>
+
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="activity_paddingTop">16dp</dimen>
+    <dimen name="activity_paddingRight">16dp</dimen>
+    <dimen name="activity_paddingBottom">16dp</dimen>
+    <dimen name="activity_paddingLeft">16dp</dimen>
+
+    <dimen name="activity_margin_min">8dp</dimen>
+    <dimen name="activity_margin_min_Top">8dp</dimen>
+    <dimen name="activity_margin_min_Right">8dp</dimen>
+    <dimen name="activity_margin_min_Bottom">8dp</dimen>
+    <dimen name="activity_margin_min_Left">8dp</dimen>
+
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_marginTop">16dp</dimen>
+    <dimen name="activity_marginRight">6dp</dimen>
+    <dimen name="activity_marginBottom">16dp</dimen>
+    <dimen name="activity_marginLeft">16dp</dimen>
+
+    <dimen name="activity_margin_big">24dp</dimen>
+    <dimen name="activity_margin_big_Top">24dp</dimen>
+    <dimen name="activity_margin_big_Right">24dp</dimen>
+    <dimen name="activity_margin_big_Bottom">24dp</dimen>
+    <dimen name="activity_margin_big_Left">24dp</dimen>
+
+
+    <dimen name="card_view_two_line_bar_height">48dp</dimen>
+    <dimen name="card_view_text_bar">64dp</dimen>
+    <dimen name="card_view_padding">16dp</dimen>
+    <dimen name="card_view_actions_padding">8dp</dimen>
+    <dimen name="card_view_cover_padding">112dp</dimen>
+    <dimen name="status_size">144dp</dimen>
+    <dimen name="card_view_subtitle_area">72dp</dimen>
+    <dimen name="app_comment_list_height">256dp</dimen>
+
+    <dimen name="text_menu_size">14sp</dimen>
+    <dimen name="icon_size_min">24dp</dimen>
+    <dimen name="icon_size">32dp</dimen>
+    <dimen name="icon_size_big">48dp</dimen>
+    <dimen name="logo_size">72dp</dimen>
+    <dimen name="logo_size_splash">144dp</dimen>
+
+    <dimen name="avatar_size">96dp</dimen>
+    <dimen name="min_cover_size">144dp</dimen>
+    <dimen name="cover_size">192dp</dimen>
+    <dimen name="text_account_size">16sp</dimen>
+    <dimen name="cardCornerRadius">3dp</dimen>
+    <dimen name="cardElevation">3dp</dimen>
+    <dimen name="cardMaxElevation">8dp</dimen>
+    <dimen name="contentPadding">8dp</dimen>
+
+    <dimen name="headerTitleStyle.Expanded">24sp</dimen>
+    <dimen name="headerTitleStyle.Collapsed">16sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="settings_icon">
+        <item>@drawable/ic_account</item>
+        <item>@drawable/ic_map</item>
+        <item>@drawable/ic_location</item>
+        <item>@drawable/ic_globe</item>
+        <item>@drawable/ic_help</item>
+        <item>@drawable/ic_problem</item>
+        <item>@drawable/ic_privacy</item>
+        <item>@drawable/ic_launcher</item>
+    </string-array>
+
+    <string-array name="settings_text">
+        <item>@string/str_account</item>
+        <item>@string/str_map</item>
+        <item>@string/str_location</item>
+        <item>@string/str_language</item>
+        <item>@string/str_help</item>
+        <item>@string/str_report</item>
+        <item>@string/str_terms</item>
+        <item>@string/str_about</item>
+    </string-array>
+
+    <integer-array name="circular_color">
+        <item>@android:color/white</item>
+        <item>@color/Yellow</item>
+        <item>@color/colorPrimaryText</item>
+        <item>@color/Orange</item>
+    </integer-array>
+
+</resources>
